@@ -9,6 +9,15 @@ custom modifications
   position: relative;
   width: 50%;
 }
+.hover-effect {
+
+  margin: auto;
+}
+.hover-effect:hover {
+  background-color: rgb(163, 0, 0,0.8);
+  border-radius: 15px;
+  margin: auto;
+}
 
 .image {
   opacity: 1;
@@ -7244,6 +7253,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .navbar-link:hover,
 .navbar-link.is-active {
   background-color: rgb(163, 0, 0);
+  border-radius: 15px;
   color: #3273dc;
 }
 
@@ -7402,10 +7412,12 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item:focus, .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
     background-color: rgb(163, 0, 0);
+    border-radius: 15px;
     color: #0a0a0a;
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
     background-color: rgb(163, 0, 0);
+    border-radius: 15px;
     color: #3273dc;
   }
   .navbar-burger {
@@ -7473,6 +7485,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar-dropdown a.navbar-item:focus, .navbar-dropdown a.navbar-item:hover {
     background-color: rgb(163, 0, 0);
+    border-radius: 15px;
     color: #0a0a0a;
   }
   .navbar-dropdown a.navbar-item.is-active {
